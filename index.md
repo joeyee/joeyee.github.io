@@ -3,8 +3,7 @@
 
 卡尔曼滤波的核心公式
 
-\begin{eqnarray}
-X_{t}=&AX_{t-1} & +W_{t}\label{eq.state} \\
+$X_{t}=&AX_{t-1} & +W_{t}\label{eq.state}$
 Y_{t}=&CX_{t} &+ V_{t}\label{eq.measure}
 \end{eqnarray}
 
