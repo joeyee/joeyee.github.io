@@ -4,8 +4,7 @@
 卡尔曼滤波的核心公式
 
 $X_{t}=&AX_{t-1} & +W_{t}\label{eq.state}$
-Y_{t}=&CX_{t} &+ V_{t}\label{eq.measure}
-\end{eqnarray}
+$Y_{t}=&CX_{t} &+ V_{t}\label{eq.measure}$
 
 状态向量$X \in R^{M}$, $W \in R^{M}$为高斯白噪声，符合正态分布$w \sim \mathcal{N}(0, \Sigma_{w}) $.
 则给定前一时刻$X_{t-1}$状态时，$p(X_t | X_{t-1}) = \mathcal{N}(X_t | AX_{t-1}, \Sigma_{w}) $。
